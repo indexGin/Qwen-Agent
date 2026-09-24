@@ -39,9 +39,9 @@ llm_cfg = {
     'model_type': 'qwen_dashscope',
     # 'api_key': 'your-key',  # Optional if DASHSCOPE_API_KEY env var is set
     'generate_cfg': {
-        'enable_thinking': 'True',
+        'enable_thinking': True,
         'thinking_budget': 12000,
-        'use_raw_api': 'True',
+        'use_raw_api': True,
         'top_p': 0.8,
     }
 }
